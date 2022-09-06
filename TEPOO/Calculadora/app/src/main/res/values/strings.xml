@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="txv_numero1">Insert the first number</string>
+    <string name="txv_numero2">Insert the second number</string>
+    <string name="btn_somar" translatable="false">+</string>
+    <string name="btn_subtrair" translatable="false">-</string>
+    <string name="btn_multiplicar" translatable="false">*</string>
+    <string name="btn_dividir" translatable="false">/</string>
+    <string name="txv_resultado">Result</string>
+</resources>
