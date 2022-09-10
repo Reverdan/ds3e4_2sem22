@@ -1,4 +1,5 @@
-﻿using CRUDPessoas.DAL;
+﻿using CRUDPessoas.Apresentacao;
+using CRUDPessoas.DAL;
 using CRUDPessoas.Modelo;
 using System;
 using System.Collections.Generic;
@@ -27,15 +28,10 @@ namespace CadastroPessoas
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void mnuCadastrar_Click(object sender, RoutedEventArgs e)
         {
-            Pessoa pessoa = new Pessoa();
-            pessoa.Nome = "Maria José";
-            pessoa.Rg = "123";
-            pessoa.Cpf = "654";
-
-            PessoaDAO pessoaDAO = new PessoaDAO();
-            pessoaDAO.cadastrarPessoa(pessoa);
+            frmCadastrar frmC = new frmCadastrar();
+            frmC.ShowDialog();
         }
     }
 }

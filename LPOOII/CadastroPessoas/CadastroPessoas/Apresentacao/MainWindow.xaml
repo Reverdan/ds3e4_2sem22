@@ -5,9 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CadastroPessoas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="262">
-    <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="60,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.669,0.202" Click="button_Click"/>
+        Title="MainWindow" Height="270" Width="430">
+    <Grid Margin="0,0,23,5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="105*"/>
+            <ColumnDefinition Width="26*"/>
+        </Grid.ColumnDefinitions>
+        <Menu x:Name="menu" Grid.ColumnSpan="3" Margin="0,0,0,222">
+            <MenuItem Header="Pessoas" Height="22">
+                <MenuItem x:Name="mnuCadastrar" Header="Cadastrar" Click="mnuCadastrar_Click"/>
+                <MenuItem x:Name="mnuPEE" Header="Pesquisar / Editar / Excluir"/>
+            </MenuItem>
+        </Menu>
 
     </Grid>
 </Window>

@@ -26,3 +26,5 @@ C:\Users\Rever\Documents\Visual Studio 2022\projetos\CadastroPessoas\CadastroPes
 C:\Users\Rever\Documents\Visual Studio 2022\projetos\CadastroPessoas\CadastroPessoas\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Rever\Documents\Visual Studio 2022\projetos\CadastroPessoas\CadastroPessoas\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Rever\Documents\Visual Studio 2022\projetos\CadastroPessoas\CadastroPessoas\obj\Debug\net6.0-windows\CRUDPessoas.csproj.CopyComplete
+C:\Users\Rever\Documents\Visual Studio 2022\projetos\CadastroPessoas\CadastroPessoas\obj\Debug\net6.0-windows\Apresentacao\frmCadastrar.g.cs
+C:\Users\Rever\Documents\Visual Studio 2022\projetos\CadastroPessoas\CadastroPessoas\obj\Debug\net6.0-windows\Apresentacao\frmCadastrar.baml

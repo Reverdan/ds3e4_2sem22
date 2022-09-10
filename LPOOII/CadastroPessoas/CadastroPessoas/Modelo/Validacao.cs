@@ -11,6 +11,7 @@ namespace CRUDPessoas.Modelo
         public String Mensagem { get; set; }
         public void validarDadosPessoa(List<String> listaDadosPessoa)
         {
+            this.Mensagem = "";
             try
             {
                 int numero = Convert.ToInt32(listaDadosPessoa[0]);
@@ -22,7 +23,7 @@ namespace CRUDPessoas.Modelo
                     this.Mensagem = "Nome deve ter menos que 50 caracteres";
                 if (listaDadosPessoa[2].Length > 10)
                     this.Mensagem = "RG deve ter menos que 10 caracteres";
-                if (listaDadosPessoa[3].Length > 10)
+                if (listaDadosPessoa[3].Length > 13)
                     this.Mensagem = "CPF deve ter menos que 13 caracteres";
             }
             catch
