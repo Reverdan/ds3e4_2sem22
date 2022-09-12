@@ -7,4 +7,5 @@
     <string name="btn_multiplicar" translatable="false">*</string>
     <string name="btn_dividir" translatable="false">/</string>
     <string name="txv_resultado">Result</string>
+    <string name="erro_conversao">Conversion error</string>
 </resources>
