@@ -41,11 +41,11 @@ namespace Biblioteca.Apresentacao
             else
             {
                 MessageBox.Show(controle.Mensagem);
-                txbId.Text = livro.Id.ToString();
-                txbTitulo.Text = livro.Titulo;
-                txbAutor.Text = livro.Autor;
-                txbAno.Text = livro.Ano;
-                txbPaginas.Text = livro.Paginas;
+                txbId.Text = "";
+                txbTitulo.Text = "";
+                txbAutor.Text = "";
+                txbAno.Text = "";
+                txbPaginas.Text = "";
             }
         }
     }

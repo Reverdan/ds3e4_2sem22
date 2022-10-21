@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rever\\Documents\\Visual Studio 2022\\projetos\\Biblioteca\\Biblioteca\\Biblioteca.csproj": {}
+    "D:\\Documentos\\GitHub\\ds3e4_2sem22\\LPOOII\\Biblioteca\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rever\\Documents\\Visual Studio 2022\\projetos\\Biblioteca\\Biblioteca\\Biblioteca.csproj": {
+    "D:\\Documentos\\GitHub\\ds3e4_2sem22\\LPOOII\\Biblioteca\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rever\\Documents\\Visual Studio 2022\\projetos\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "D:\\Documentos\\GitHub\\ds3e4_2sem22\\LPOOII\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\Rever\\Documents\\Visual Studio 2022\\projetos\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "D:\\Documentos\\GitHub\\ds3e4_2sem22\\LPOOII\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\Rever\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rever\\Documents\\Visual Studio 2022\\projetos\\Biblioteca\\Biblioteca\\obj\\",
+        "outputPath": "D:\\Documentos\\GitHub\\ds3e4_2sem22\\LPOOII\\Biblioteca\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Rever\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -43,9 +40,27 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.3, )"
+              "version": "[4.8.4, )"
+            },
+            "microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
             }
           },
           "imports": [
@@ -67,7 +82,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

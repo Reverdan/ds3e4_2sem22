@@ -1,0 +1,21 @@
+﻿<Window x:Class="Biblioteca.frmCadastro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Biblioteca"
+        mc:Ignorable="d"
+        Title="Cadastro de Livros" Height="334" Width="364">
+    <Grid>
+        <Label x:Name="lblTitulo" Content="Titulo" HorizontalAlignment="Left" Margin="53,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblAutor" Content="Autor" HorizontalAlignment="Left" Margin="53,86,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblAno" Content="Ano" HorizontalAlignment="Left" Margin="53,139,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPaginas" Content="Paginas" HorizontalAlignment="Left" Margin="53,191,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbTitulo" HorizontalAlignment="Left" Margin="142,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbAutor" HorizontalAlignment="Left" Margin="142,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbAno" HorizontalAlignment="Left" Margin="142,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbPaginas" HorizontalAlignment="Left" Margin="142,191,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCadastrar" Content="Cadastrar" HorizontalAlignment="Left" Margin="222,245,0,0" VerticalAlignment="Top" Click="btnCadastrar_Click"/>
+
+    </Grid>
+</Window>
